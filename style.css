@@ -1,0 +1,53 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+header{
+    background-color: #062134;
+    color: white;
+    padding: 1%;
+}
+
+.title{
+    margin: 0;
+    float: left;
+    padding-left: 1%;
+}
+
+h1{
+    font-weight: lighter;
+    text-align: center;
+}
+nav{
+    padding: 1%;
+    text-align: right;
+}
+
+.navbar{
+    overflow: auto;
+}
+
+
+.navbar a{
+    padding-inline: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: #1a7abeef;
+}
+
+.navbar a.active {
+    color: #1a7abeef;
+}
+
+
+@media screen and (max-width: 500px){
+    .navbar a{
+        display: block;
+        padding: 1%;
+    }
+    
+}
