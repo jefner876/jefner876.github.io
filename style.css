@@ -42,7 +42,7 @@ nav {
 .navbar a.active {
   color: #1a7abeef;
 }
-main {
+.main {
   color: black;
   margin: 1.5rem;
 }
